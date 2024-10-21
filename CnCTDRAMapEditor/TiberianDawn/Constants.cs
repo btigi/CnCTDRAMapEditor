@@ -18,8 +18,8 @@ namespace MobiusEditor.TiberianDawn
 {
     public static class Constants
     {
-        public static readonly Size MaxSize = new Size(64, 64);
-        public static readonly Size MaxSizeMega = new Size(128, 128);
+        public static readonly Size MaxSize = new Size(Globals.MapMaxX, Globals.MapMaxY);
+        public static readonly Size MaxSizeMega = new Size(Globals.MapMaxXMega, Globals.MapMaxYMega);
 
         public const string FileFilter = "Tiberian Dawn files (*.ini;*.bin)|*.ini;*.bin";
 

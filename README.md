@@ -61,6 +61,8 @@ A brief overview of the improvements and added features:
 * Tile randomisation in Red Alert interior maps, allowing the use of previously unused alternate graphics that exist for almost all tiles.
 * Options in the editor's .config file can tweak specific editor behaviour, like allowing overlapping bibs or theater-illegal objects.
 
+* Ability to create non-standard sized maps (edit the MaxMapX and MaxMapY settings values in CnCTDRAMapEditorD.exe.config).
+
 The full change log can be viewed in [CHANGELOG.md](CHANGELOG.md)
 
 ### Possible future features

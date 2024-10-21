@@ -85,6 +85,10 @@ namespace MobiusEditor
             NoOwnedObjectsInSole = Properties.Settings.Default.NoOwnedObjectsInSole;
             AdjustSoleTeleports = Properties.Settings.Default.DrawSoleTeleports;
             RestrictSoleLimits = Properties.Settings.Default.RestrictSoleLimits;
+            MapMaxX = Properties.Settings.Default.MapMaxX;
+            MapMaxY = Properties.Settings.Default.MapMaxY;
+            MapMaxXMega = Properties.Settings.Default.MapMaxXMega;
+            MapMaxXMega = Properties.Settings.Default.MapMaxYMega;
         }
 
         public const string TilesetsXMLPath = @"DATA\XML\TILESETS.XML";
@@ -196,6 +200,10 @@ namespace MobiusEditor
         public static bool DisableSquishMark { get; private set; }
         public static bool AdjustSoleTeleports { get; private set; }
         public static bool RestrictSoleLimits { get; private set; }
+        public static int MapMaxX { get; private set; }
+        public static int MapMaxY { get; private set; }
+        public static int MapMaxXMega { get; private set; }
+        public static int MapMaxYMega { get; private set; }
 
         public static readonly Size MapPreviewSize = new Size(512, 512);
         public static readonly Size WorkshopPreviewSize = new Size(512, 512);

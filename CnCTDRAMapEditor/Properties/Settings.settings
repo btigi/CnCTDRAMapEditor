@@ -254,5 +254,17 @@
     <Setting Name="LastCheckVersion" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
+    <Setting Name="MapMaxX" Type="System.Int32" Scope="Application">
+		<Value Profile="(Default)">64</Value>
+	</Setting>
+    <Setting Name="MapMaxY" Type="System.Int32" Scope="Application">
+	  <Value Profile="(Default)">64</Value>
+	</Setting>
+	  <Setting Name="MapMaxXMega" Type="System.Int32" Scope="Application">
+		  <Value Profile="(Default)">128</Value>
+	  </Setting>
+	  <Setting Name="MapMaxYMega" Type="System.Int32" Scope="Application">
+		  <Value Profile="(Default)">128</Value>
+	  </Setting>
   </Settings>
 </SettingsFile>

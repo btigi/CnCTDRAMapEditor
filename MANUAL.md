@@ -240,6 +240,15 @@ These don't affect any real behaviour, but change some graphics to look more cor
 * **FixConcretePavement**: The connection logic of the "CONC" pavement in Tiberian Dawn is seriously bugged in-game. The editor contains a fixed logic, showing the concrete how it was intended to be, filling in side gaps with filler cells. However, be advised that this new logic does not match the actual game. For this reason, it is disabled by default.
 * **DrawSoleTeleports**: On Sole Survivor maps, draw a black area with a blue border over the loaded ROAD graphics to emulate the look of the in-game teleporters.
 
+### Map Size:
+
+These set the size of the map (not the playable area) when creating a new map. Note that maps using non-default settings will not be playable:
+
+* **MapMaxX**: The width of the map in tiles (default value is 64).
+* **MapMaxY**: The height of the map in tiles (default value is 64).
+* **MapMaxXMega**: The width of the map in tiles for a MegaMap (default value is 128).
+* **MapMaxYMega**: The height of the map in tiles for a MegaMap (default value is 128).
+
 ## Classic files listing:
 
 The following files can be read from the configured classic data folders, for running the editor in classic mode. They can also be loaded from mod folders. They will be loaded in the listed order, from any available sources. The basic rule in the game is that each file name can only be loaded once, and the first-loaded files have priority, so this also shows which archives can override the contents of which other archives.
