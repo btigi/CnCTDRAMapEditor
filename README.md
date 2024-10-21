@@ -1,5 +1,12 @@
 ﻿# Mobius Map Editor
 
+## Fork Summary
+This repository contains a fork Nyerguds' [Mobius Map Editor repository](https://github.com/Nyerguds/MobiusMapEditor). This fork contains a single change; the ability to create non-standard sized maps. The size of a new map can be configured by editing MapMaxX, MapMaxY, MapMaxXMega and MapMaxXY in CnCTDRAMapEditorD.exe.config.
+
+**Maps of a non-standard size will not be playable, and will likely crash all versions of the game and all other map editors.**
+
+---
+
 ## Project
 
 Mobius Map Editor is an enhanced version of the map editor supplied with the Command & Conquer Remastered Collection, based on [the source code released by Electronic Arts](https://github.com/electronicarts/CnC_Remastered_Collection/).
